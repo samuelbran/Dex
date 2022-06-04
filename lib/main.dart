@@ -1,4 +1,3 @@
-import 'package:dex/screens/homepage/homepage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -22,7 +21,7 @@ class Dex extends StatelessWidget {
           elevation: 0,
         ),
       ),
-      home: const Homepage(),
+      home: const Text("Homepage"),
     );
   }
 }
