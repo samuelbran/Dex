@@ -3,13 +3,21 @@ import 'package:json_annotation/json_annotation.dart';
 part 'region.g.dart';
 
 enum RegionName {
+  @JsonValue('kanto')
   kanto,
+  @JsonValue('johto')
   johto,
+  @JsonValue('hoenn')
   hoenn,
+  @JsonValue('kalos')
   kalos,
+  @JsonValue('sinnoh')
   sinnoh,
+  @JsonValue('unova')
   unova,
+  @JsonValue('alola')
   alola,
+  @JsonValue('galar')
   galar,
 }
 

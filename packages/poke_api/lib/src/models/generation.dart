@@ -4,13 +4,21 @@ import 'package:poke_api/src/models/region.dart';
 part 'generation.g.dart';
 
 enum GenerationName {
+  @JsonValue('generation-i')
   generationI,
+  @JsonValue('generation-ii')
   generationII,
+  @JsonValue('generation-iii')
   generationIII,
+  @JsonValue('generation-iv')
   generationIV,
+  @JsonValue('generation-v')
   generationV,
+  @JsonValue('generation-vi')
   generationVI,
+  @JsonValue('generation-vii')
   generationVII,
+  @JsonValue('generation-viii')
   generationVIII,
 }
 

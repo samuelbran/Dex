@@ -34,14 +34,14 @@ Generation _$GenerationFromJson(Map<String, dynamic> json) => $checkedCreate(
     );
 
 const _$GenerationNameEnumMap = {
-  GenerationName.generationI: 'generationI',
-  GenerationName.generationII: 'generationII',
-  GenerationName.generationIII: 'generationIII',
-  GenerationName.generationIV: 'generationIV',
-  GenerationName.generationV: 'generationV',
-  GenerationName.generationVI: 'generationVI',
-  GenerationName.generationVII: 'generationVII',
-  GenerationName.generationVIII: 'generationVIII',
+  GenerationName.generationI: 'generation-i',
+  GenerationName.generationII: 'generation-ii',
+  GenerationName.generationIII: 'generation-iii',
+  GenerationName.generationIV: 'generation-iv',
+  GenerationName.generationV: 'generation-v',
+  GenerationName.generationVI: 'generation-vi',
+  GenerationName.generationVII: 'generation-vii',
+  GenerationName.generationVIII: 'generation-viii',
 };
 
 PokemonSpeciesItem _$PokemonSpeciesItemFromJson(Map<String, dynamic> json) =>
