@@ -14,11 +14,12 @@ class PokeApiClient {
   PokeApiClient({http.Client? httpClient})
       : _httpClient = httpClient ?? http.Client();
 
-  static const _baseUrl = 'https://pokeapi.co/api/v2';
+  static const _baseUrl = 'pokeapi.co';
   final http.Client _httpClient;
 
   Future<Generation> getGeneration(int generationId) async {
-    final generationRequest = Uri.https(_baseUrl, '/generation/$generationId');
+    final generationRequest =
+        Uri.https(_baseUrl, '/api/v2/generation/$generationId');
     final generationResponse = await _httpClient.get(generationRequest);
 
     if (generationResponse.statusCode != 200) {
